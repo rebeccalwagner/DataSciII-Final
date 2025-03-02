@@ -1,0 +1,15 @@
+Data
+    Shapes
+        tl_2020_11_tract - shape file for DC 2020 census tracts
+        tl_2020_24_tract - shape file for MD 2020 census tracts
+        tl_2020_51_tract - shape file for VA 2020 census tracts
+        tl_2020_us_county - shape file for US 2020 counties and equivilent
+        tl_2023_11_bg - shape file for DC 2023 block groups
+
+
+
+FIPS
+11 - DC
+51 - VA
+24 - MD
+
