@@ -1,11 +1,40 @@
 Data
+    acs
+        variables
+            acs5_2018_all_vars.csv - all the possible variables to call from the 2018 american community survey 5 year estimate
+            acs5_2018_selected_vars.csv - the final set of variables to call for each state 
+            compiled_acs_vars.csv - csv with possible variables to call for each state compiled from several sources across the internet. Not clean.
+        acs5_2018_selected_vars_DC.csv - original set of data for all DC block groups called from 2018 acs 5 year estimates
+        acs5_2018_selected_vars_MD.csv - original set of data for all MD block groups called from 2018 acs 5 year estimates
+        acs5_2018_selected_vars_VA.csv - original set of data for all VA block groups called from 2018 acs 5 year estimates
+        acs5_2018_selected_vars_DMV.csv - original set of data for all block groups in VA, DC, and MD called from 2018 acs 5 year estimates
     Shapes
-        tl_2020_11_tract - shape file for DC 2020 census tracts
-        tl_2020_24_tract - shape file for MD 2020 census tracts
-        tl_2020_51_tract - shape file for VA 2020 census tracts
-        tl_2020_us_county - shape file for US 2020 counties and equivilent
+        SELECTED_DMV_BG - shape file with selected dmv block groups within DC MSA
+        tl_2010_11_bg10 - shape file for DC 2010 census block groups
+        tl_2010_24_bg10 - shape file for MD 2010 census block groups
+        tl_2010_51_bg10 - shape file for VA 2010 census block groups
+        tl_2010_us_county - shape file for US 2020 counties  
         tl_2023_11_bg - shape file for DC 2023 block groups
+    Working Data
+        starting_dataset.csv - original merge with block group level acs and target eviction component from Eviction Lab
+    bg_proprietary_2020_2018_v1.1.csv - original download from EvictionLab containing evicion data on all block groups in the US for years 2000-2018
+    EvictionLab_bg_DMV_processed_target.csv - file created with all viable block groups and generated eviction target
+    EvictionLab_bg_DMV.csv - contains EvictionLab data on only block groups in DC, MD, and VA
 
+filter_acs_data - filter acs datasets for all block groups in DMV to just block groups identified in DC MSA
+get_acs_data - identify set of variables to call and grab them for all block groups in the DMV 
+get_evictionlab_dmv - filter only DMV data from the original eviction lab data file and create target measure
+get_select_block_groups - identify set of block groups to work with central to the DC MSA
+merge_eviction_lab_acs_dmv - join the block group data from acs with the created target from EvictionLab 
+
+Steps 
+
+Creating the Dataset
+1. Use API to call 2018 block level data for MD, VA, and DC from the acs on a variety of demographic, community, and housing factors (get_acs_data)
+2. Use Census 2018 shape files to identify block groups of interest within DMV area (get_select_block_groups)
+3. Filter called acs data by the block groups selected (filter_acs_data)
+4. Download and parse Eviction Lab Data for MD, VA, and DV (2018), including creating a target variable (get_evictionlab_dmv)
+5. Merge the filtered acs data with eviction lab data to get the working data set (merge_evictionlab_acs_dmv)
 
 
 FIPS
@@ -13,3 +42,27 @@ FIPS
 51 - VA
 24 - MD
 
+DC Metropolitan Statistical Area
+Counties:
+- District of Columbia X
+- Arlington
+- Clarke
+- Fiarfax X
+- Fauquier
+- Loudon
+- Prince William
+- Spotsylvania
+- Stafford
+- Warren 
+- Calvert
+- Charles
+- Frederick
+- Montgomery X
+- Prince George's
+Cities
+- Alexandria X
+- Farifax
+- Falls Church
+- Fredericksburg
+- Manassas
+- Manassas Park
