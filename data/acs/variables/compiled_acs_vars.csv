@@ -1,0 +1,316 @@
+Variable Code, Description
+B03002_003E,Hispanic or Latino Population
+B01001_002E,Male Population
+B01001_003E,Female Population
+B19013_001E,Median Household Income
+B17001_002E,People Below the Poverty Level
+B25003_001E,Total Housing Units by Tenure
+B25070_001E,Rent as a Percentage of Income
+B25091_001E,Monthly Rent for Renters
+B23025_003E,Employed Population
+B23025_004E,Unemployed Population
+B11009_001E,Families with Children Under 18
+B16001_002E,Population Speaking a Language Other Than English
+B25064_001E,Median Gross Rent
+B25077_001E,Median Home Value
+B25058_001E,Median Contract Rent
+B25003_002E,Owner-Occupied Housing Units
+B25003_003E,Renter-Occupied Housing Units
+B25004_002E,Vacant Housing Units - For Rent
+B25004_003E,Vacant Housing Units - For Sale
+B25004_004E,"Vacant Housing Units - Rented, Not Occupied"
+B25004_005E,"Vacant Housing Units - Sold, Not Occupied"
+B25070_007E,Rent 35-39.9% of Household Income
+B25070_008E,Rent 40-49.9% of Household Income
+B25070_009E,Rent 50% or more of Household Income
+B19057_002E,Public Assistance Income
+B25034_001E,Total Housing Units by Year Built
+B25034_010E,Housing Units Built 2014 or Later
+B25034_011E,Housing Units Built 2010 to 2013
+B25035_001E,Median Year Structure Built
+B07001_050E,Moved from Abroad
+B25106_001E,Total Housing Costs as % of Household Income
+B25106_003E,Housing Costs >30% of Income (Owner)
+B25106_006E,Housing Costs >30% of Income (Renter)
+B25072_001E,Monthly Housing Costs (Owners)
+B25011_002E,Households with One or More People Under 18
+B25011_003E,Households with One or More People 65+
+B18101_009E,Disabled Population 18-64 Years Old
+B25092_001E,Gross Rent as a Percentage of Household Income
+B25095_001E,Monthly Housing Costs as a Percentage of Income
+B25119_001E,Median Household Income for Renters
+B25119_002E,Median Household Income for Owners
+B25081_001E,Total Mortgaged Owner-Occupied Units
+B25081_002E,Housing Units with a Mortgage
+B25081_003E,Housing Units without a Mortgage
+B25014_001E,Total Occupied Housing Units
+B25014_002E,Owner-Occupied Overcrowded Units
+B25014_003E,Renter-Occupied Overcrowded Units
+B08013_001E,Aggregate Travel Time to Work
+B08014_001E,Workers Commuting by Public Transportation
+B25121_001E,Public Housing Occupied Units
+B25121_002E,Subsidized Housing Occupied Units
+B07001_017E,Moved within same county
+B07001_033E,Moved from different state
+B25002_003E,Vacant Housing Units
+B25004_001E,Vacant Housing Units - Total
+B01001_001E,Total Population
+B01002_001E,Median Age
+B02001_002E,White Population
+B02001_003E,Black or African American Population
+B02001_005E,Asian Population
+B03002_012E,Hispanic or Latino Population
+B11001_001E,Total Households
+B11001_002E,Family Households
+B11001_003E,Married-Couple Family Households
+B11001_005E,Single Female Households
+B11001_006E,Single Male Households
+B15003_017E,High School Diploma
+B15003_022E,Bachelor's Degree
+B15003_025E,Graduate or Professional Degree
+B23025_001E,Total Workforce
+B23025_002E,Labor Force Participation Rate
+B23025_005E,Unemployment Rate
+B18101_001E,Total Population with Disabilities
+B18101_002E,Male with a Disability
+B18101_003E,Female with a Disability
+B25001_001E,Total Housing Units
+B25002_002E,Occupied Housing Units
+B25009_001E,Total Household Size
+B25009_002E,Owner-Occupied Household Size
+B25009_003E,Renter-Occupied Household Size
+B25074_001E,Total Renters by Gross Rent
+B25074_008E,Rent 35-39.9% of Household Income
+B25074_009E,Rent 40-49.9% of Household Income
+B25074_010E,Rent 50% or more of Household Income
+B25105_001E,Owner Costs as % of Household Income
+B25034_002E,Built 2010 or Later
+B25034_003E,Built 2000 to 2009
+B25034_004E,Built 1990 to 1999
+B25034_005E,Built 1980 to 1989
+B25106_002E,Electricity Costs
+B25106_004E,Gas Costs
+B08006_001E,Total Workers by Means of Transportation
+B08006_002E,"Car, Truck, or Van - Alone"
+B08006_003E,"Car, Truck, or Van - Carpool"
+B08006_008E,Public Transportation Users
+B08012_001E,Total Commuting Time
+B07001_001E,Total Population Migration
+B25081_001E,Total Owner-Occupied Units
+B25085_001E,Median Monthly Mortgage Payment
+B16001_001E,Total Population by Language Spoken
+B16001_002E,Speaks Only English at Home
+B16001_003E,Speaks Spanish at Home
+B09002_001E,Total Single Parent Families
+B19057_002E,Households Receiving Public Assistance
+B19058_002E,Households Receiving SNAP Benefits
+B25034_002E,Housing Units Built 2010 or Later
+B25034_003E,Housing Units Built 2000 to 2009
+B25034_004E,Housing Units Built 1990 to 1999
+B25034_005E,Housing Units Built 1980 to 1989
+B08006_002E,"Car, Truck, or Van - Drove Alone"
+B08006_003E,"Car, Truck, or Van - Carpooled"
+B09002_001E,Total Single-Parent Families
+B08006_007E,Walked to Work
+B08006_009E,Other Means to Work
+B08006_010E,Worked from Home
+B08007_001E,Time Leaving Home to Go to Work
+B08008_001E,Travel Time to Work
+B08134_001E,Means of Transportation to Work by Vehicles Available
+B08141_001E,Means of Transportation to Work by Age
+B08122_001E,Means of Transportation to Work by Occupation
+B08126_001E,Means of Transportation to Work by Industry
+B08128_001E,Means of Transportation to Work by Class of Worker
+B08130_001E,Means of Transportation to Work by Time Leaving Home
+B08132_001E,Means of Transportation to Work by Travel Time to Work
+B08136_001E,Aggregate Travel Time to Work (in Minutes)
+B08137_001E,Aggregate Travel Time to Work (in Hours)
+B08138_001E,Average Travel Time to Work (in Minutes)
+B08139_001E,Average Travel Time to Work (in Hours)
+B08201_001E,Household Size by Vehicles Available
+B08202_001E,Household Income by Vehicles Available
+B08203_001E,Household Type by Vehicles Available
+B08204_001E,Household Language by Vehicles Available
+B08205_001E,Household Size by Number of Workers in Household
+B08206_001E,Household Income by Number of Workers in Household
+B08207_001E,Household Type by Number of Workers in Household
+B01003_001E,Total Population Estimate
+B01002A_001E,Median Age (White Alone)
+B01002B_001E,Median Age (Black or African American Alone)
+B01002D_001E,Median Age (Asian Alone)
+B01002H_001E,Median Age (Non-Hispanic White Alone)
+B02008_001E,Population of Two or More Races
+B05002_013E,Foreign-Born Population
+B05002_014E,Naturalized U.S. Citizens
+B05002_015E,Non-U.S. Citizens
+B07003_001E,Total Population for Mobility Analysis
+B07003_002E,Same House 1 Year Ago
+B07003_003E,Moved Within Same County
+B07003_004E,Moved from Different County
+B07003_005E,Moved from Different State
+B07003_006E,Moved from Abroad
+B08011_001E,Children Who Take Public Transportation to School
+B08105A_001E,Means of Transportation to Work (White Alone)
+B08105B_001E,Means of Transportation to Work (Black Alone)
+B08105D_001E,Means of Transportation to Work (Asian Alone)
+B08141_002E,Workers Under 16 Years Old
+B08141_003E,Workers 16 to 19 Years Old
+B08141_004E,Workers 20 to 24 Years Old
+B08141_005E,Workers 25 to 44 Years Old
+B08141_006E,Workers 45 to 59 Years Old
+B08141_007E,Workers 60 Years and Over
+B08202_002E,Household Income Less Than $10000 with Vehicle
+B08202_003E,Household Income $10000-$14999 with Vehicle
+B08202_004E,Household Income $15000-$24999 with Vehicle
+B08202_005E,Household Income $25000-$34999 with Vehicle
+B08202_006E,Household Income $35000-$49999 with Vehicle
+B08303_001E,Total Travel Time to Work
+B08303_002E,Travel Time Less Than 10 Minutes
+B08303_003E,Travel Time 10-14 Minutes
+B08303_004E,Travel Time 15-19 Minutes
+B08303_005E,Travel Time 20-24 Minutes
+B08303_006E,Travel Time 25-29 Minutes
+B08303_007E,Travel Time 30-34 Minutes
+B08303_008E,Travel Time 35-44 Minutes
+B08303_009E,Travel Time 45-59 Minutes
+B08303_010E,Travel Time 60+ Minutes
+B09010_001E,Single Parent Households with Children
+B11004_002E,Households with Grandparents Living with Grandchildren
+B11013_001E,Multigenerational Households
+B14006_001E,Total School Enrollment for Population 3+
+B14006_002E,Public School Enrollment
+B14006_003E,Private School Enrollment
+B14006_004E,Not Enrolled in School
+B15002_001E,Total Educational Attainment
+B15002_003E,Less Than 9th Grade Education
+B15002_004E,9th-12th Grade No Diploma
+B15002_005E,High School Graduate (Includes GED)
+B15002_006E,Some College No Degree
+B15002_007E,Associate's Degree
+B15002_008E,Bachelor's Degree
+B15002_009E,Graduate or Professional Degree
+B16004_001E,Language Spoken at Home by Ability to Speak English
+B16004_002E,"Speaks Spanish Speaks English ""Very Well"""
+B16004_003E,"Speaks Spanish Speaks English ""Less than Very Well"""
+B16004_004E,"Speaks Indo-European Languages Speaks English ""Very Well"""
+B16004_005E,"Speaks Indo-European Languages Speaks English ""Less than Very Well"""
+B16004_006E,"Speaks Asian Languages Speaks English ""Very Well"""
+B16004_007E,"Speaks Asian Languages Speaks English ""Less than Very Well"""
+B17010_002E,Families Below Poverty Level
+B17010_003E,Married-Couple Families Below Poverty Level
+B17010_004E,Single Female Families Below Poverty Level
+B17010_005E,Single Male Families Below Poverty Level
+B18120_001E,Total Population with Cognitive Disabilities
+B18120_002E,Population 18-64 with Cognitive Disabilities
+B18120_003E,Population 65+ with Cognitive Disabilities
+B19001_001E,Household Income Distribution
+B19001_002E,Income Less Than $10000
+B19001_003E,Income $10000-$14999
+B19001_004E,Income $15000-$24999
+B19001_005E,Income $25000-$34999
+B19001_006E,Income $35000-$49999
+B19001_007E,Income $50000-$74999
+B19001_008E,Income $75000-$99999
+B19001_009E,Income $100000-$149999
+B19001_010E,Income $150000-$199999
+B19001_011E,Income $200000+
+B19083_001E,Gini Index of Income Inequality
+B19301_001E,Per Capita Income
+B23006_002E,Total Civilian Labor Force Population 16-64
+B23006_003E,Unemployed Population 16-64
+B23006_004E,Employed Population 16-64
+B23022_001E,Total Families Receiving Public Assistance
+B23022_002E,Families Receiving TANF Benefits
+B25032_001E,Housing Units by Bedrooms
+B25032_002E,No Bedroom Units (Studio)
+B25032_003E,1-Bedroom Units
+B25032_004E,2-Bedroom Units
+B25032_005E,3-Bedroom Units
+B25032_006E,4-Bedroom Units
+B25032_007E,5+ Bedroom Units
+B25075_001E,Home Values of Owner-Occupied Units
+B25075_002E,Home Value Less than $50000
+B25075_003E,Home Value $50000-$99999
+B25075_004E,Home Value $100000-$149999
+B25075_005E,Home Value $150000-$199999
+B25075_006E,Home Value $200000-$299999
+B25075_007E,Home Value $300000-$499999
+B25075_008E,Home Value $500000-$999999
+B25075_009E,Home Value $1000000+
+B25110_001E,Total Population Living in Substandard Housing
+B25002_001E,Occupied Housing Units
+B25002_002E,Owner-Occupied Housing Units
+B25002_003E,Renter-Occupied Housing Units
+B25004_004E,Vacant Housing Units - Rented Not Occupied
+B25004_005E,Vacant Housing Units - Sold Not Occupied
+B25010_001E,Total Housing Units with a Mortgage
+B25011_001E,Total Housing Units Without a Mortgage
+B25012_001E,Owner-Occupied Housing Units with a Mortgage
+B25014_002E,Owner-Occupied Housing Units
+B25014_003E,Renter-Occupied Housing Units
+B25015_001E,Households by Household Size
+B25030_001E,Total Housing Units by Type of Structure
+B25030_002E,Single Unit Housing
+B25030_003E,Multi-Unit Housing
+B25031_001E,Housing Units by Year Built
+B25032_001E,Total Housing Units by Bedrooms
+B25032_002E,No Bedroom Units Studio
+B25032_007E,5 or More Bedroom Units
+B25033_001E,Total Housing Units by Year Structure Built
+B25034_006E,Housing Units Built 1970 to 1979
+B25034_007E,Housing Units Built 1960 to 1969
+B25034_008E,Housing Units Built 1950 to 1959
+B25034_009E,Housing Units Built 1940 to 1949
+B25034_010E,Housing Units Built 1939 or Earlier
+B25036_001E,Total Housing Units with Kitchen
+B25036_002E,Housing Units with Kitchen
+B25037_001E,Total Housing Units with Plumbing Facilities
+B25037_002E,Housing Units with Plumbing Facilities
+B25038_001E,Total Housing Units with Telephone Service
+B25038_002E,Housing Units with Telephone Service
+B25039_001E,Total Housing Units with Internet Access
+B25039_002E,Housing Units with Internet Access
+B25040_001E,Total Housing Units with Vehicles Available
+B25040_002E,Housing Units with Vehicles Available
+B25041_001E,Total Housing Units with No Vehicles Available
+B25041_002E,Housing Units with No Vehicles Available
+B25042_001E,Total Housing Units by Tenure and Housing Costs
+B25043_001E,Total Housing Units by Tenure and Rent
+B25044_001E,Total Housing Units by Rent as a Percentage of Income
+B25045_001E,Total Housing Units by Rent Burden
+B25046_001E,Total Housing Units by Income to Rent Ratio
+B25047_001E,Total Housing Units by Owner Costs
+B25048_001E,Total Housing Units by Owner Costs as Percentage of Income
+B25049_001E,Total Housing Units by Housing Value
+B25050_001E,Total Housing Units by Mortgage Status
+B25051_001E,Total Housing Units by Rent as a Percentage of Income
+B25052_001E,Total Housing Units by Rent Burden
+B25053_001E,Total Housing Units by Gross Rent
+B25054_001E,Total Housing Units by Monthly Rent
+B25055_001E,Total Housing Units by Rent Affordability
+B25056_001E,Total Housing Units by Rent Burdened Renters
+B25057_001E,Total Housing Units by Housing Costs as Percentage of Income
+B25059_001E,Median Rent
+B25060_001E,Total Housing Units with a Mortgage
+B25061_001E,Median Home Value
+B25062_001E,Owner-Occupied Housing Units with a Mortgage
+B25063_001E,Owner-Occupied Housing Units without a Mortgage
+B25065_001E,Median Housing Cost for Renters
+B25066_001E,Median Household Income for Renters
+B25067_001E,Median Household Income for Owners
+B25068_001E,Total Renters
+B25069_001E,Owner-Occupied Housing Units
+B25071_001E,Total Renters by Gross Rent
+B25072_001E,Total Renters by Rent Burden
+B25073_001E,Total Renters by Rent as a Percentage of Household Income
+B25075_001E,Total Renters by Rent Affordability
+B25076_001E,Total Renters by Rent Burden
+B25078_001E,Median Mortgage Payment
+B25079_001E,Owner-Occupied Housing Units by Mortgage Status
+B25080_001E,Total Renters Paying Rent
+B25082_001E,Total Mortgaged Owner-Occupied Units by Type of Mortgage
+B25083_001E,Owner-Occupied Housing Units without a Mortgage
+B25084_001E,Owner-Occupied Housing Units by Type of Mortgage
+B25086_001E,Total Housing Units by Value of Home
+B25087_001E,Total Housing Units by Homeowner Costs
+B25088_001E,Total Housing Units by Housing Value
