@@ -14,11 +14,11 @@ Data
         tl_2010_24_bg10 - shape file for MD 2010 census block groups
         tl_2010_51_bg10 - shape file for VA 2010 census block groups
         tl_2010_us_county - shape file for US 2020 counties  
-        tl_2023_11_bg - shape file for DC 2023 block groups
     Working Data
-        starting_dataset.csv - original merge with block group level acs and target eviction component from Eviction Lab
+        Filing_Dataset.csv
+        Filing_Dataset_Imputed.csv
     bg_proprietary_2020_2018_v1.1.csv - original download from EvictionLab containing evicion data on all block groups in the US for years 2000-2018
-    EvictionLab_bg_DMV_processed_target.csv - file created with all viable block groups and generated eviction target
+    EvictionLab_bg_DMV_Filing.csv
     EvictionLab_bg_DMV.csv - contains EvictionLab data on only block groups in DC, MD, and VA
 
 filter_acs_data - filter acs datasets for all block groups in DMV to just block groups identified in DC MSA
@@ -30,11 +30,35 @@ merge_eviction_lab_acs_dmv - join the block group data from acs with the created
 Steps 
 
 Creating the Dataset
-1. Use API to call 2018 block level data for MD, VA, and DC from the acs on a variety of demographic, community, and housing factors (get_acs_data)
-2. Use Census 2018 shape files to identify block groups of interest within DMV area (get_select_block_groups)
-3. Filter called acs data by the block groups selected (filter_acs_data)
-4. Download and parse Eviction Lab Data for MD, VA, and DV (2018), including creating a target variable (get_evictionlab_dmv)
-5. Merge the filtered acs data with eviction lab data to get the working data set (merge_evictionlab_acs_dmv)
+1. Use API to call 2018 block level data for MD, VA, and DC from the acs on a variety of demographic, community, and housing factors 
+    File: get_acs_data
+    Input: compiled_acs_vars
+    Output: acs5_2018_selected_vars_MD, acs5_2018_selected_vars_DC, acs5_2018_selected_vars_VA
+2. Use Census 2018 shape files to identify block groups of interest within DMV area
+    File: get_select_block_groups
+    Input: tl_2010_51_bg10, tl_2010_24_bg10, tl_2010_11_bg10, tl_2020_us_county
+    Output: SELECTED_DMV_BG
+3. Filter called acs data by the block groups selected 
+    File: filter_acs_data
+    Input: SELECTED_DMV_BG, acs5_2018_selected_vars_DC, acs5_2018_selected_vars_MD, acs5_2018_selected_vars_VA
+    Output: acs5_2018_selected_vars_DMV
+4. Download and parse Eviction Lab Data for MD, VA, and DC (2018), specifically filing data
+    File: get_evictionlab_dmv
+    Input: bg_proprietary_2000_2018_v1.1
+    Output: EvictionLab_bg_DMV, EvictionLab_bg_DMV_Filing
+5. Merge the filtered acs data with eviction lab data to get the working data set 
+    File: merge_eviction_lab_acs_dmv
+    Input: acs5_2018_selected_vars_DMV, EvictionLab_bg_DMV_Filing
+    Output: Filing_Dataset
+
+Creating the Model
+1. Preprocess the finalized dataset 
+    File: preprocessing
+    Input: Filing_Dataset
+    Output: Filing_Dataset_Imputed
+2. Train the Model 
+    File: classification_v1
+    Input: Filing_Dataset_Imputed
 
 
 FIPS
