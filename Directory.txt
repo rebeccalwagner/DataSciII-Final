@@ -71,7 +71,7 @@ Counties:
 - District of Columbia X
 - Arlington
 - Clarke
-- Fiarfax X
+- Fiarfax X - note clifton enclave in Fairfax City 
 - Fauquier
 - Loudon
 - Prince William
