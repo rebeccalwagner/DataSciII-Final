@@ -66,6 +66,16 @@ FIPS
 51 - VA
 24 - MD
 
+Colors
+#7fb1d3
+#fb8072 
+#b3de68
+#8ac5bb
+#bebad9
+#fccde5
+#fdb462
+#ffffb4
+
 DC Metropolitan Statistical Area
 Counties:
 - District of Columbia X
